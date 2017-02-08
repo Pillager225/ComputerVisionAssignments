@@ -25,7 +25,7 @@ if __name__ == '__main__':
 		else:
 			print("ok")
 			a = -4
-		filts = [np.array([[1, 1, 1],[1,1,1],[1,1,1]]),
+		filts = [np.array([[0, 0, 0],[0,1,0],[0,0,0]]),
 		np.array([1,2,1])/4.0,
 		np.array([1,4,6,4,1])/16.0,
 		"gaus",

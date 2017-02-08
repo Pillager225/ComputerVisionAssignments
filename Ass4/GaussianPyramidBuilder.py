@@ -30,7 +30,7 @@ if __name__ == '__main__':
 		greyImg = cv2.cvtColor(cv2.imread(sys.argv[1]), cv2.COLOR_BGR2GRAY)
 		pImages = [[greyImg]*5]*3;
 		for i in range(3):
-			pImages[i][0]= blurDownsample(pImages[i][0], np.array([[1, 1, 1],[1,1,1],[1,1,1]]))
+			pImages[i][0]= blurDownsample(pImages[i][0], np.array([[0,0,0],[0,1,0],[0,0,0]]))
 			pImages[i][1] = blurDownsample(pImages[i][1], np.array([1,2,1])/4.0)
 			pImages[i][2] = blurDownsample(pImages[i][2], np.array([1,4,6,4,1])/16.0)
 			pImages[i][3] = blurDownsample(pImages[i][3], "gaus")
