@@ -1,0 +1,14 @@
+cameraman
+	Sobel = 0.1433
+	Log = 0.0051
+	Canny = 0.0313, 0.0781
+
+lighthouse
+	Sobel = 0.1089
+	Log = 0.0037
+	Canny = 0.0313, 0.0781
+
+moon
+	Sobel = 0.0674
+	Log = 0.0026
+	Canny = 0.0375, 0.0938
